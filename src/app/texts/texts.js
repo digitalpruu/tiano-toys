@@ -1,9 +1,9 @@
 const title = "Tiano.Toys";
-const email = ""; // Información no proporcionada
+const email = "Tianotoyst@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
     "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573142270040";
 
 const textos = {
     index: {
@@ -13,8 +13,8 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Tiano.Toys se especializa en la creación de muñecos para bebés, diseñados para proporcionar a los más pequeños juguetes seguros y divertidos que fomentan su desarrollo y felicidad.",
-        description2: "Con un enfoque en la calidad y la seguridad, nuestros muñecos están elaborados con materiales suaves y amigables para los bebés, asegurando que cada juguete sea un compañero perfecto para la infancia."
+        description1: "Somos TianoToys, la marca fabricante y distribuidora de muñecos bebes que alegra el corazón y el alma de nuestros niños a través del juego sano, con valores, amor e inclusión.  Bebes rellenitos de ternura, cariño y tela, para que nuestros niños vuelvan a ser niños y  nosotros como adultos rescatemos nuestra infancia, compartiendo y disfrutando momentos inolvidables.",
+        description2: "Ofrecemos accesorios, vestuario,  lencería  para muñecos únicos con trabajo artesanal y mano de obra 100% Colombiana que asegura la calidad de nuestros productos. Personalizamos la ropita de tus mejores amigos de juego, consiguiendo diseños exclusivos. Nuestros niños merecen soñar, crear, imaginar, socializar; ¡asegura que vivan esta experiencia en compañía de Tiano, ¡Bienvenidos!."
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
@@ -28,8 +28,8 @@ const textos = {
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "", // Información no proporcionada
-        instagram: "", // Información no proporcionada
+        facebook: "https://www.facebook.com/profile.php?id=61564082835146",
+        instagram: "https://www.instagram.com/tianotoys",
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
